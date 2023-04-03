@@ -1,0 +1,212 @@
+.header {
+    background: #F7F8F0;
+    padding: 1.6% 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+
+form {
+    text-align: left;
+}
+
+a {
+    color: #009BA8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #009BA8;
+}
+
+.demi {
+    font-weight: 600;
+}
+
+.banner-header {
+    background: url(img/header-band.png) repeat-x;
+    height: 5px;
+}
+
+h1 {
+font-size: 40px;
+line-height: 110%;
+}
+
+.hero {
+    padding: 35px 0 50px;
+}
+
+.subtitle {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 110%;
+    color: #557767;
+    padding: 50px 0 25px;
+    /* margin-top: -80px; */
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 996px;
+    }
+}
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 996px;
+    }
+}
+
+.mini-container {
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.mini-container p {
+    padding-bottom: 1.5rem;
+}
+
+.breaker {
+    padding-bottom: 2.5rem;
+}
+
+.coming-soon {
+    padding-bottom: 40px;
+}
+.coming-soon h2 {
+    font-size: 36px;
+    line-height: 78px;
+}
+
+.coming-soon p {
+    color: #557767;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.form {
+    padding-top: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+form label {
+    font-family: 'Futura PT';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+form input, .form-control {
+    background-color: #F7F7F7;
+}
+
+.btn-primary {
+    background: #009BA8;
+    border: #009BA8;
+    font-size: 21px;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #557767;
+}
+
+.coming-soon p.message {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #557767;
+}
+.funders h2 {
+    padding-bottom: 60px;
+}
+.funders h2.tight-spacing {
+    padding-bottom: 40px;
+    padding-top: 35px;;
+}
+
+.funder-list {
+    list-style: none;
+    display: inline-block;
+}
+
+.funder-list li {
+    float: left;
+    margin: 0 20px;
+}
+
+.imgfix {
+    padding-top: 20px;
+}
+
+.footer * {
+    color: white;
+}
+
+.banner-footer {
+    background: url(img/footer-band.png) repeat-x;
+    height: 7px;
+    margin-top: 80px;
+}
+
+.footer {
+    color: white;
+    padding-top: 50px;
+    background-color: #009BA8;
+}
+
+.footer h3 {
+    padding: 1rem 0 2rem;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.footer h2 {
+    padding: 25px 0;
+}
+
+.social {
+    text-align: center;
+    margin: 0 auto;
+}
+.social-list {
+    list-style: none;
+    display: inline-block;
+}
+
+.social-list li {
+   float: left;
+   width: 36px;
+   margin: 0 12px;
+   color: white;
+}
+
+li a {
+    transition: 0.3s;
+}
+
+li a:hover {
+    opacity: 0.75;
+}
+
+.social-list li svg {
+   color: white;
+}
+
+.terms {
+    padding-top: 40px;
+    font-size: 16px;
+}
