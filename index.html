@@ -57,18 +57,18 @@
 
         <div class="form">
             
-            <form class="row g-3">
+            <form name="contact" method="POST" class="row g-3" data-netlify="true">
                 <div class="col-md-6">
                   <label for="firstName" class="form-label">First name *</label>
-                  <input type="email" class="form-control" id="firstName">
+                  <input type="text" name="firstname" class="form-control" id="firstName">
                 </div>
                 <div class="col-md-6">
                   <label for="lastName" class="form-label">Last name *</label>
-                  <input type="password" class="form-control" id="lastName">
+                  <input type="text" name="lastname" class="form-control" id="lastName">
                 </div>
                 <div class="col-12">
                     <label for="emailaddress" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="emailaddress">
+                    <input type="email" name="email" class="form-control" id="emailaddress">
                 </div>
                 <div class="d-grid gap-2">
                     <button class="btn btn-primary" type="submit">Submit</button>
