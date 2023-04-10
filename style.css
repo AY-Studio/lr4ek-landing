@@ -1,6 +1,6 @@
 .header {
     background: #F7F8F0;
-    padding: 1.6% 0;
+    padding: 1.6% 30px;
     margin: 0 auto;
     text-align: center;
 }
@@ -21,7 +21,7 @@ a {
     color: #009BA8;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, .subtitle {
     font-family: "futura-pt", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -39,7 +39,6 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
 font-size: 40px;
-line-height: 110%;
 }
 
 .hero {
@@ -47,11 +46,10 @@ line-height: 110%;
 }
 
 .subtitle {
-    font-family: 'Futura PT';
+    font-family: "futura-pt", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height: 110%;
     color: #557767;
     padding: 50px 0 25px;
     /* margin-top: -80px; */
@@ -86,7 +84,6 @@ line-height: 110%;
 }
 .coming-soon h2 {
     font-size: 36px;
-    line-height: 78px;
 }
 
 .coming-soon p {
@@ -126,7 +123,6 @@ form input, .form-control {
 .coming-soon p.message {
     font-weight: 500;
     font-size: 24px;
-    line-height: 32px;
     color: #557767;
 }
 .funders h2 {
@@ -144,7 +140,7 @@ form input, .form-control {
 
 .funder-list li {
     float: left;
-    margin: 0 20px;
+    margin: 0 20px 0 0;
 }
 
 .imgfix {
@@ -194,13 +190,14 @@ form input, .form-control {
    color: white;
 }
 
-li a {
+li a, .funder-list {
     transition: 0.3s;
 }
 
-li a:hover {
+li a:hover, .funder-list a:hover {
     opacity: 0.75;
 }
+
 
 .social-list li svg {
    color: white;
@@ -210,3 +207,8 @@ li a:hover {
     padding-top: 40px;
     font-size: 16px;
 }
+
+/* .svg-width {
+    width: 100%;
+    max-width: 100%;
+} */
